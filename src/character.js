@@ -1,7 +1,7 @@
-class Character {
-    constructor(name) {
-        this.id = crypto.randomUUID
+export class Character {
+    constructor(name, id, imgSrc) {
+        this.id = id
         this.name = name
-        this.imgSrc = null;
+        this.imgSrc = imgSrc;
     }
 }
