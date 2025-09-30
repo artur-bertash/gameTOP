@@ -1,16 +1,20 @@
-# React + Vite
+Continuing [TOP cirruculum](https://github.com/theodinproject). The task [link](https://www.theodinproject.com/lessons/node-path-react-new-memory-card)
+Preview on netlify - [link](https://aangtop.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```bash
+git clone https://github.com/artur-bertash/gameTOP.git
+cd gameTOP
+npm install
+```
+Create .env with your giphy api
+```bash
+VITE_GIPHY_API_KEY=key
+```
+Run development
+```bash
+npm run dev
+```
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
-
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6214a845-d61c-42ad-881a-3465d5e85995" />
