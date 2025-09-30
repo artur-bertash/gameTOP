@@ -1,0 +1,11 @@
+.cardGame {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    gap: 2rem;
+}
+
+.card {
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    
+}
